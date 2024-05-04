@@ -9,20 +9,20 @@ public class Magazine extends Borrowable {
         magTitle = title;
         magISBN = isbn;
     }
-    public void setContents(String newContents)
-    {
+
+    public void setContents(String newContents) {
         contents = newContents;
     }
-    public String getContents()
-    {
+
+    public String getContents() {
         return contents;
     }
-    public String getMagISBN()
-    {
+
+    public String getISBN() {
         return magISBN;
     }
-    public String getMagTitle()
-    {
+
+    public String getTitle() {
         return magTitle;
     }
 }
