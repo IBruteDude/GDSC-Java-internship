@@ -1,7 +1,5 @@
 package Library;
 
-import java.util.List;
-
 public class Book extends Borrowable {
     private final String bookTitle;
     private final String bookISBN;
@@ -11,20 +9,20 @@ public class Book extends Borrowable {
         bookTitle = title;
         bookISBN = isbn;
     }
-    public void setContents(String newContents)
-    {
+
+    public void setContents(String newContents) {
         contents = newContents;
     }
-    public String getContents()
-    {
+
+    public String getContents() {
         return contents;
     }
-    public String getBookTitle()
-    {
+
+    public String getTitle() {
         return bookTitle;
     }
-    public String getBookISBN()
-    {
+
+    public String getISBN() {
         return bookISBN;
     }
 

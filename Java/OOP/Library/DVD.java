@@ -13,21 +13,19 @@ public class DVD extends Borrowable {
         dvdISBN = isbn;
     }
 
-    public void setContents(List<Byte> newContents)
-    {
+    public void setContents(List<Byte> newContents) {
         contents = newContents;
     }
-    public List<Byte> getContents()
-    {
+
+    public List<Byte> getContents() {
         return contents;
     }
 
-    public String getDvdISBN()
-    {
+    public String getISBN() {
         return dvdISBN;
     }
-    public String getDvdTitle()
-    {
+
+    public String getTitle() {
         return dvdTitle;
     }
 }
