@@ -3,14 +3,14 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Factorial Table WebApp</display-name>
-  <servlet>
-		<servlet-name>java-intern</servlet-name>
+	<display-name>Factorial Table WebApp</display-name>
+	<servlet>
+		<servlet-name>jeetask</servlet-name>
 		<servlet-class>FactorialServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>java-intern</servlet-name>
+		<servlet-name>jeetask</servlet-name>
 		<url-pattern>/factorial-table</url-pattern>
 	</servlet-mapping>
 </web-app>
